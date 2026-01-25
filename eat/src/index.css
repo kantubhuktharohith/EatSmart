@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+  
+  /* Smooth transition for all major blocks */
+  div, button, input, select, aside, main, section, nav {
+    @apply transition-colors duration-300 ease-in-out;
+  }
+}
