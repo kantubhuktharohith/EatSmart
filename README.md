@@ -36,3 +36,78 @@ App
 🌗 Dark Mode Support
 
 Built-in light and dark themes with system preference detection and manual toggle.
+
+🧩 Tech Stack
+
+React – Component-based UI
+
+Tailwind CSS – Utility-first styling
+
+Framer Motion – Smooth animations
+
+Recharts – Data visualizations
+
+Lucide Icons – Modern icon set
+
+AI Service Layer – Handles food analysis and plan generation
+
+📁 Project Structure
+```
+src/
+│
+├── components/
+│   ├── Dashboard.jsx        # Nutrition summary & charts
+│   ├── MealLogger.jsx       # Manual meal tracking
+│   ├── AIAnalyzer.jsx       # AI food analysis tool
+│   ├── SmartPlanner.jsx     # AI-generated health plans
+│   └── ui/                  # Reusable UI components
+│       ├── Button.jsx
+│       ├── Card.jsx
+│       ├── Input.jsx
+│       ├── Select.jsx
+│       └── Badge.jsx
+│
+├── services/
+│   └── aiService.js         # AI integration logic
+│
+├── lib/
+│   └── utils.js             # Utility helpers
+│
+└── App.jsx                  # Main app layout and routing logic
+```
+
+⚙️ Installation
+```
+git clone https://github.com/yourusername/eatsmart.git
+cd eatsmart
+npm install
+npm start
+```
+🔌 Environment Setup
+
+The AI features rely on an external AI service.
+
+Create a .env file in the root directory:
+```
+REACT_APP_AI_API_KEY=your_api_key_here
+```
+
+🧠 How the AI Works
+
+Food Analysis: Users type a food description → AI estimates macros → confidence score returned
+
+Smart Planning: User goal is sent to AI → structured daily/weekly guidance returned
+
+The AI service is abstracted so different providers (OpenAI, Claude, etc.) can be plugged in without changing UI components.
+
+🎯 Future Improvements
+
+Barcode food scanning
+
+Persistent database storage
+
+Progress tracking over months
+
+Wearable device integration
+
+Macro goal customization (not just calories)
