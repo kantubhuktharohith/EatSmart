@@ -111,3 +111,7 @@ Progress tracking over months
 Wearable device integration
 
 Macro goal customization (not just calories)
+
+📸 Screenshots
+
+![image alt]()
