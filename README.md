@@ -115,3 +115,5 @@ Macro goal customization (not just calories)
 📸 Screenshots
 
 ![image alt](https://github.com/kantubhuktharohith/EatSmart/blob/18471b50aec4e319a438106b39b7d248e78f05f6/Screenshot%202026-01-25%20185215.png)
+
+![image alt](https://github.com/kantubhuktharohith/EatSmart/blob/821efb2d08004b44bbcce6a87b76f5010ebf5536/Screenshot%202026-01-25%20185228.png)
