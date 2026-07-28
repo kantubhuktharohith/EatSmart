@@ -1,5 +1,4 @@
 EatSmart – AI-Powered Nutrition Tracker
-
 EatSmart is a modern nutrition tracking web app that helps users log meals, analyze food with AI, and receive smart health recommendations. It combines manual tracking with AI assistance to make healthy eating simpler and more insightful.
 
 🚀 Features
