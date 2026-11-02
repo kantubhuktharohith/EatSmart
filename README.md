@@ -3,7 +3,6 @@ EatSmart is a modern nutrition tracking web app that helps users log meals, anal
 🚀 Features
 📊 Dashboard Overview
 Visual breakdown of daily nutrition including calories, protein, carbs, and fats. Includes macro distribution charts and weekly calorie trends. 
-
 Dashboard
 
 🍽 Meal Logger
